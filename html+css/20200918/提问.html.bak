@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+	<!-- 
+	head标签里包含的标签
+			meta
+			title
+
+	img标签的属性
+		src 连接图片
+		alt 提示 当图片路径出错的时候，显示在页面		中文字
+		style 样式  用于修饰标签的
+		width  img标签独有的属性  可以改变img的宽度
+		height  img标签独有的属性  可以改变img的高度
+
+	分割线 
+		hr
+		br  ---回车、换行符
+	占位符
+		空格 br
+	-->
+ </body>
+</html>

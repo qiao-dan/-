@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style> 
+	h1{
+	/* 属性：值*/
+			text-align:right;
+		/* 	color:blue;
+			color:#00f; */
+			color:rgb(0,0,0);
+			text-shadow:10px 20px 2px black;
+			/* color:transparent; */
+/* 
+			white-space:pre; */
+			/*  (文本溢出隐藏)  */
+	/* 	text-overflow:hidden; */
+			/* text-overflow:ellipsis;
+			盒子内容溢出隐藏
+			overflow:hidden;
+			 */
+
+			word-spacing:20px;
+		}
+		p{
+		text-decoration:underline;
+		font-size:32px;
+		line-height:80px;
+		text-shadow:5px 10px 10px black; 
+		color:blue;
+		text-indent:50px;
+		}
+  </style>
+ </head>
+ <body>
+	<h1 style="text-align:center;color:pink;">标题1</h1>
+	<h1 >标题2</h1>
+	<h1 >标题3</h1>
+	<h1 >标题4</h1>
+	<p>文字属性聂天淡淡一笑，眼中涌动出一抹异样的炽热。他对帝虹花并不感兴趣，但对七夜冥族，却是兴趣很大。他很想知道，七夜冥族的实力，究竟有多强。尤其是那个神秘莫的夜王夜无伤，与他一战，应该很有意思。“好！”墨玄天等人兴奋无比，有了聂天的加入，胜算可就大多了。而在这个时候，随着帝虹花开，不少人已经开始争夺起来。帝虹花，浮光落影，七彩的光芒在空中绽放，一道道光<p>
+ </body>
+</html>

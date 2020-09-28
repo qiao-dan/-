@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+<style>
+	*{/*通用方式去掉属性*/
+		margin:0;
+		padding:0;
+		}
+	a{
+		/*文本修饰：无*/
+		text-decoration:none;
+		}
+	li{/*css列表*/
+	/*列表-样式-类型：无；*/
+	list-style-type:none;
+	}
+	.fl{
+		float:left;}
+	.fr{
+		float:right;}
+
+
+/*------------正常修饰部分---------- */
+
+		#nav-box{
+		margin:30px auto 0;
+		width:1000px;
+		border:1px solid black;
+		background:green;
+		height:30px;
+		
+		line-height:30px;
+		color:white;
+		font-size:14px;}
+
+		/*修饰全部分类*/
+		#nav-box .cartgory{
+		width:184px;
+		padding-left:16px;
+		font-size:18px;
+		background-color:#317fe3;
+		}
+		/*修饰菜单导航下的里li*/
+		#nav-box .menu-nav li{
+			 float:left;
+			width:99px;
+			border-left:1px solid transparent;
+			border-right:1px solid transparent;
+			text-align:center;}
+
+		#nav-box .menu-nav li a{
+			color:white;
+		}
+		/*修饰叫index的li*/
+		#nav-box .menu-nav li.index{
+			background-color:#ffb901;
+			border-color:#fff;
+			}
+
+		#nav-box .menu-nav li:hover{
+			background-color:gray;}
+		#nav-box .menu-nav li:active{
+			color:yellow;}
+
+
+	/* 	#nav-box .menu-nav li p{
+			display:none;
+			}
+		#nav-box.menu-nav li a:hover+p{
+			
+		} */
+</style>
+
+ </head>
+ <body>
+		<div id="nav-box">
+			<div class="fl cartgory">
+				全部商品分类
+			</div>
+				<ul class="menu-nav fl">
+				<li class="avtion index">
+					<a href="http://www.baidu.com">首页</a></li>
+				<li><a href="#">QQ网购</a></li>
+				<li><a href="#">装机宝</a></li>
+				<li><a href="#">早市</a></li>
+				<li><a href="#">天太黑</a></li>
+				<li><a href="#">二手特卖</a></li>
+				<li><a href="#">团购</a></li>
+				</ul>
+		</div>
+  
+  
+		
+ </body>
+</html>

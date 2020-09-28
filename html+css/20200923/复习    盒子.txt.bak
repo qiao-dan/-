@@ -1,0 +1,54 @@
+经常
+	font-size  字体大小
+	font-weight 字体加粗(bold)
+	font-style 字体样式( italic   倾斜
+				 normal   正常)
+	line-height 行高
+	text-align  文本排列:(left/center/right)
+	text-decoration  文本修饰(underline  下划线
+					overline   上划线
+					line-through   删除线
+					none  无)
+	color颜色
+
+偶尔
+	write-space  空白处理
+	text-overflow  文本溢出
+
+	text-indent  首行缩进
+
+
+基本不用
+	word-spacing  字体间距
+
+
+
+
+	width
+	height
+	background-color:
+		背景颜色
+		背景图片
+		背景大小（拉伸）
+		背景重复
+		背景位置
+
+	border
+		四个边都有边框
+	border-right   大小 颜色  线（样式
+				solid   实线
+				dashed  虚线
+				 dotted   点线
+				 double   双线）
+	border-left   大小 颜色  线
+	border-bottom   大小 颜色  线
+	border-top    大小 颜色  线
+
+
+	border-color
+	border-width
+	border-style
+
+	border-right-color
+	border-left-width
+	border-top-style

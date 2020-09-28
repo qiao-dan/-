@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+<style >
+		a:active{color:green;}
+			a:visited{color:red;}
+			a:active{color:blue;}
+</style>
+
+ <body>
+
+	<a href="#address1">位置1</a>  <br/>
+   <a href="#address2">位置2</a>   <br/>
+   <a href="#address3">位置3</a>   <br/>
+	<a href="#address4">位置4</a>  <br/>
+	<a href="">位置5</a>  <br/>
+
+
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+	<p style="">
+	<a name="address1" style="color:blue">这是一个段落</a>
+	，
+	位置1
+	Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, nulla. Cupiditate, itaque. Provident quos cum culpa corrupti, optio nesciunt fugit tenetur molestiae nulla rerum perferendis, accusamus ullam repellat expedita omnis!
+   ?</p>
+   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+   <br/><br/><br/><br/><br/><br/><br/>
+   <br/><br/><br/><br/><br/><br/><br/>
+	<p style="color:blue">
+	<a  name="address2" ></a>这是一个段落，
+	位置2
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio dolores aspernatur accusamus magnam provident, perspiciatis quibusdam numquam accusantium sed quisquam, eos maiores quasi ea nihil nemo possimus commodi sit natus.
+   </p>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+	<p>
+	<a  name="address3" ></a>这是一个段落，
+	位置3
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur aut amet explicabo pariatur facere earum distinctio exercitationem ea eius placeat autem aperiam optio impedit doloribus, quas illo? Debitis, tempore?</p>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<p>
+	<a  name="address4" ></a>
+		完美！！！哇哇
+	</p>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<h5 style="color:red">
+12358488
+</h5>
+
+ </body>
+</html>

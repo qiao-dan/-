@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>乔</title> 
+  <style>  
+  a:hover{background-color:yellow;font-size:40px;}/* 悬停状态下 */
+	a:visited{color:pink;}/* 访问过的 */
+
+		
+			
+			
+ </style>
+
+ </head>
+
+ <body>
+<a  href="http://baidu.com">超链接</a><br/>
+  <a  href="http://baidu.com">超链接</a>  <br/>
+   <a href="222.html">跳转</a>  <br/>
+  <img src="./06.gif" alt="sbhcevrs"/>
+<!-- ul 无序   ol有序 -->
+ <ul>
+  <li>148948</li>
+  <li>27755</li>
+  <li>3796867</li>
+  <li>487389435737</li>
+  </ul>
+
+<ol>
+<li>4465</li>
+<li>2132</li>
+<li>8</li>
+<li>87385</li>
+</ol>
+
+谭志键
+<br/>
+
+<b>欠打</b><!-- 加粗 --><br/>
+<i>斜着字体</i><br/>
+ </body>
+</html>

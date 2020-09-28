@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+<style>
+	h1{text-align:center;}
+
+	p{
+	font-size:32px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:right;
+	line-height:100px;
+	text-decoration:underline;
+	text-shadow:10px 7px 5px blue;
+
+
+		}
+
+	.div1{
+		width:500px;
+		height:600px;
+		background-color:pink;
+		}
+</style>
+
+ </head>
+ <body>
+  <h1>大标题<h1>
+
+  <p>一段金华什么课是恩公诉人大V开心额外if哦该冬日祭搜房鸡尾酒解耦跑分为几公斤我怕我击破恶违法建瓯盘飞发脾气噢诶及迫切九分裤就op我拉水泥独女如你人</p>
+  <table border="1" width="600" height="600" cellspacing="0"align="center">
+  <caption>表格标题</caption>
+  <thead>
+	<tr>
+		<th>头</th>
+		<th>头</th>
+		<th>头</th>
+	</tr>
+  </thead>
+  <tfoot style="text-align:right;">
+	<tr>
+		<th colspan="3">统计</th>
+	</tr>
+  </tfoot>
+  <tbody>
+	<tr>
+		<td colspan="2">1</td>
+		<td rowspan="2">2</td>
+	
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>2</td>
+	
+	</tr>
+  <tbody>
+  </table>
+
+
+
+	<div class="div1" ></div>
+
+
+ </body>
+</html>

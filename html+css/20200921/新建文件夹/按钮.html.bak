@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+ <!--单选按钮-->
+	<form>
+
+	<input type="radio"  name="nan"   value="qiao">qiao<br>
+	<input type="radio" name="nan" value="dan">dan
+	</form>
+
+<!--复选框-->
+	<form action="">
+		<input type="checkbox" name="vehicle" value="bike">I have a bike<br/>
+		<input type="checkbox"
+		name="vehicle"
+		value="car">I have a car
+	</form>
+
+
+	<form>
+	<!--下拉列表-->
+	<select name='acd'>
+		<option value="nnn">nnn</option>
+		<option value="pyfih">pyfih</option>
+		<option value="vtyym">vtyym</option>
+		<option value="utf-8">utf-8</option>
+	</select>
+	</form>
+
+
+		<form>
+		<!--预选下拉列表selected-->
+	<select name='acd'>
+		<option value="nnn">nnn</option>
+		<option value="pyfih">pyfih</option>
+		<option value="vtyym">vtyym</option>
+		<option value="utf-8"selected>utf-8</option>
+	</select>
+	</form>
+
+
+<!--文本框-->
+	<textarea rows="10" cols="30">我是一个文本框
+	</textarea>
+
+<!--按钮-->
+<form action=""><input type="button" value="hello">
+</form>
+
+
+<form> 
+	username：<input type="text" name ="账号"><br/>
+	password:<input type="password" name="密码">
+</form>
+ </body>
+</html>

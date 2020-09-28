@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+	div{
+		width:200px;
+		height:200px;
+	
+		}
+	.div1{
+			background-color:red;
+			border:10px solid black;
+
+			/*外边距  不存在颜色  可以撑开多个元素之间的距离*/
+			margin-bottom:20px;
+			}
+	.div2{
+			margin-top:30px;
+			background-color:blue;
+			padding:10px;
+			border:20px solid black;}
+
+
+a:link{color:red;}
+a:visited{color:blue;}
+a:hover{color:yellow;}
+a:active{color:green;}
+	
+  </style>
+ </head>
+ <body>
+  <div class="div1  div3">
+  
+  </div>
+  <div class="div2 div3">
+  
+  </div>
+
+ <a href="http://www.baidu.com">超链接</a>
+  <a href="http://www.baidu.com">超链接</a>
+<a href="http://www.u.com">超链接</a>
+ </body>
+</html>

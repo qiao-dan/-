@@ -1,0 +1,9 @@
+h2{ color:blue;background:grey;}
+p{  
+	color:#00ffff;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:line-through;
+	font-size:32px;
+	text-align:right;
+	line-height:px;}
