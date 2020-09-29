@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+		<style>
+			.box1{width:200px;
+					height:200px;
+					background:#ff0000;
+					}
+			.box2{width:200px;
+					height:200px;
+					background:#33ff00;
+
+					position:absolute;
+					left:100px;
+					top:100px;
+					z-index:1;
+					
+					opacity:0.5;
+					filter:alpha(opacity=50)}
+			/*
+				z-index用来设置元素的层级
+					-指定一个正整数值  该值将会作为当前元素的层级
+							层级越高  越优先显示
+					-对于一个没有开启定位的元素不能使用z-index
+					-父元素的层级再高  也不会盖住子元素
+				opacity用来设置背景透明   需要一个01之间的值
+							-0代表完全透明
+							-1代表不透明
+							-ie8以及以下浏览器不支持
+									-filter:alpha(opacity=0~100)
+									-0代表透明
+									-100代表不透明
+						
+			*/
+			.box3{width:300px;
+					height:200px;
+					background:#0033ff;
+					position:relative;
+					z-index:10;}
+		/*
+		    absolute 开启元素的绝对定位
+					-开启绝对定位  会使元素脱离文档流
+					-开启绝对定位  如果不设置偏移量  位置不会发生改变
+					-开启绝对定位  是相对于离他最近的开启了定位的祖先元素进行定位的
+						如果所有祖先元素都没有开启定位  则相对于浏览器窗口进行定位
+					-一般情况  开启了子元素的绝对定位都会开启父元素的相对定位
+					-绝对定位会使元素提升一个层级
+					-绝对定位会改变元素的性质  内联元素变成块元素  块元素的宽高度默认被内容撑开
+			fixed开启元素的固定定位
+					-固定定位也是一种绝对定位   大部分特点都和绝对定位一样
+					-固定定位永远都会相对于浏览窗口进行定位
+					-ie6不支持固定定位
+					
+		*/
+		.box4{width:400px;
+				height:400px;
+				background:#ffff66;
+				position:relative;}
+		.box5{width:600px;
+				height:600px;
+				background:#666600;
+				/*position:relative;*/}
+		</style>
+ </head>
+ <body>
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+
+ </body>
+</html>
