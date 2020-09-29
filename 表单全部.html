@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+		<table border="1"width="500"align="center">
+			<caption><h2>表单的全部内容</h2></caption>
+			<form action=""method="post"enctype="">
+<!--form是html的表单
+			action是数据传输的地方 .jsp  .php提交地址为空或者为“#”则提交到本页面
+				method:数据提交的方式
+				get--传递的数据信息显示在网页上  默认提交方式
+				post--传递的数据信息不会显示在网页上 传递的数据量较多 一般都用post方式传递
+				enctype:表示将数据发送到服务器时浏览器使用的编码类型
+				&nbsp；
+		application/x-www-form-urlencoded -- 窗体数据被编码为名称/值对.这是标准的编码格式.默认的。
+			multipart/form-data -- 窗体数据被编码为一条消息,页上的每个控件对应消息中的一个部分. 
+			text/plain -- 以纯文本形式进行编码,其中不含任何控件或格式字符 
+			name表格的名称-->
+				<tr>
+					<th>用户名:</th>
+					<td><input type="text"name="user"placeholder="输入用户名"/></td>
+				</tr>
+				<tr>
+					<th>密码:</th>
+					<td><input type="password"name="psd"placeholder="请输入密码"/></td>
+				</tr>
+				<tr>
+					<th>验证码:</th>
+					<td><input type="text"name=""/><img src="imges/04.gif"
+														width="35"></td>
+				</tr>
+				<tr>
+					<th>姓名:</th>
+					<td><label><input type="radio"name="sex"checked=checked/>男默认</label>
+						<label><input type="radio"name="sex"/>女</label>
+						<label><input type="radio"name="sex"/>保密</label>
+						</td>
+					</tr>
+					<tr>
+						<th>爱好:</th>
+						<td><label><input type="checkbox"name=""/>唱歌<label>
+							<label><input type="checkbox"name=""/>跳舞</label>
+							<label><input type="checkbox"name=""/>运动</label>
+				</tr>
+				<tr>
+					<th>文件：</th>
+					<td><input type="file"name=""/></td>
+				</tr>
+				<tr>
+					<th>时间：</th>
+					<td><input type="time"name=""/><br/>
+						<input type="datetime-local"name=""/><br/>
+						<input type="date"name=""/><br/>
+						<input type="month"name=""/><br/>
+						<input type="week"name=""/><br/>
+						</td>
+				</tr>
+				<tr>
+						<th>邮件：</th>
+						<td><input type="email"name=""/></td>
+				</tr>
+				<tr>
+					<th>按钮</th>
+					<td><input type="button"value="注册"/>注册
+						<input type="submit"/>提交
+						<input type="reset"name=""/>重置
+						<input type="image"src="imges/06.gif"alt="按钮"></td>
+				</tr>
+				<tr>
+					<th>下拉列表</th>
+					<td><select name="">
+							<option value="1">1</option>
+							<option value="2"selected>2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+										</select></td>
+				</tr>
+				<tr>
+					<th>列表</th>
+					<td><select size="8s"multiple disabled="disabled">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+										</select></td>
+				</tr>
+
+
+		</form>
+		</table>
+ </body>
+</html>
